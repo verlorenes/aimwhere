@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (avatar) avatar.src = avatarUrl;
             if (mainAvatar) mainAvatar.src = avatarUrl;
             
-            const discordUsername = userData.discord_user.username || 'uwlink';
+            const discordUsername = 'uwlink';
             if (username) username.textContent = '@' + discordUsername;
             
             currentDiscordHandle = '@' + discordUsername;
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (avatar) avatar.src = avatarUrl;
         if (mainAvatar) mainAvatar.src = avatarUrl;
         
-        if (username) username.textContent = userData.username || 'uwlink';
+        if (username) username.textContent = 'uwlink';
         if (discriminator) {
             discriminator.textContent = userData.discriminator 
                 ? `#${userData.discriminator}` 
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (avatar) avatar.src = avatarUrl;
         if (mainAvatar) mainAvatar.src = avatarUrl;
         
-        if (username) username.textContent = userData.username || 'uwlink';
+        if (username) username.textContent = 'uwlink';
         if (discriminator) {
             discriminator.textContent = userData.discriminator 
                 ? `#${userData.discriminator}` 
