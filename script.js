@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (avatar) avatar.src = avatarUrl;
         if (mainAvatar) mainAvatar.src = avatarUrl;
         
-        if (username) username.textContent = userData.username || 'c';
+        if (username) username.textContent = userData.username || 'uwlink';
         if (discriminator) {
             discriminator.textContent = userData.discriminator 
                 ? `#${userData.discriminator}` 
