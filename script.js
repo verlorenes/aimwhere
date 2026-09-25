@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (avatar) avatar.src = defaultAvatar;
         if (mainAvatar) mainAvatar.src = defaultAvatar;
         
-        if (username) username.textContent = 'c';
+        if (username) username.textContent = 'uwlink';
         if (discriminator) discriminator.textContent = '';
         if (status) status.className = 'status-indicator offline';
         if (activity) activity.innerHTML = '<span class="activity-text">Hors ligne</span>';
